@@ -1,0 +1,24 @@
+{
+    "detectIntentResponseId": "2c045429-24cd-4d9a-89c4-f93089e490e3",
+    "pageInfo": {
+      "currentPage": "projects/hospitality-demo-361210/locations/global/agents/fcb0a3b6-8299-4a9d-87e0-3731db89eab2/flows/00000000-0000-0000-0000-000000000000/pages/b874653a-6544-4c55-8bae-78f3b6124094",
+      "displayName": "Customer Id Confirmation"
+    },
+    "sessionInfo": {
+      "session": "projects/hospitality-demo-361210/locations/global/agents/fcb0a3b6-8299-4a9d-87e0-3731db89eab2/environments/-/sessions/081PjAf26NcSOeNej5bx92BMQ",
+      "parameters": { "customer-id": 1234 }
+    },
+    "fulfillmentInfo": { "tag": "clid" },
+    "messages": [
+      {
+        "text": {
+          "text": ["Your id is 1234 for $payload.telephony.caller_id"],
+          "redactedText": ["Your id is 1234 for $payload.telephony.caller_id"]
+        },
+        "responseType": "ENTRY_PROMPT",
+        "source": "VIRTUAL_AGENT"
+      }
+    ],
+    "payload": { "telephony": { "caller_id": "+34xxxxxxxx" } },
+    "languageCode": "en-us"
+  }

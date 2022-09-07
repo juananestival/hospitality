@@ -1,0 +1,5 @@
+project = "hospitality-demo-361210"
+region  = "us-central1"
+function_name = "my_function"
+function_main_name = "my_function_main"
+function_reservations_name = "my_function_reservations"
